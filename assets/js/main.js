@@ -90,7 +90,7 @@ const fontScales = [90, 100, 110, 125, 140],
       fontIncrease = document.getElementById('font-increase')
 
 let fontScale = fontScales.indexOf(Number(getPreference('fontScale')))
-if(fontScale === -1) fontScale = fontScales.indexOf(100)
+if(fontScale === -1) fontScale = fontScales.indexOf(125)
 
 const applyFontScale = () =>{
     // Percentages keep the size the visitor chose in their browser as the base
